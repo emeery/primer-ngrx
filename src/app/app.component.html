@@ -1,0 +1,20 @@
+<div class="contenedor">
+    <div class="imagen">
+    </div><h2>ngrx</h2>
+    <div *ngIf="libro | async as l">
+        <h2>{{ l.texto }}</h2>
+        <div>Votos: <div class="azul">{{ l.likes }}</div></div>
+        
+        
+        <button (click)="subirVoto()">+</button>
+        <button (click)="bajarVoto()">-</button>
+        <button (click)="resetVoto()">Reset</button>
+    
+        <input [(ngModel)]="texto" type="text">
+        <button (click)="editLibro()">Cambiar Titulo</button>
+    </div>
+</div>
+
+
+
+

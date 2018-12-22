@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+
+.contenedor {
+    margin: 0 auto;
+    
+    position: relative;
+}
+.imagen {
+    position: relative;
+    background-image: url(/assets/img/ngrx.png);
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    
+}
+.azul {
+    background-color: cornflowerblue;
+    width: 30px;
+    height: 30px;
+    font-size: 2em;
+    color: white;
+}
+h2 {
+    font-family: 'Thasadith', sans-serif;
+}
